@@ -16,6 +16,17 @@ Think twice before running it, or read the blog post to understand and modify it
 
 THIS IS NOT A JOKE.
 YOU HAVE BEEN WARNED.
+
+For anyone having issues with this in 2022 it is due to windows defender itself preventing you from changing certain options.
+Boot into safe mode (Hold shift and click restart)
+Run powershell as Admin
+run the command “set-executionpolicy bypass” (Allow scripts)
+
+Place the script in C:\ drive and type
+“cd c:\”
+“.\disableDefender.ps1”
+
+
 #>
 
 <#
